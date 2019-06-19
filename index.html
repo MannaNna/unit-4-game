@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Crystals Collector</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    </head>
+    <body>
+        <div id="gameName"><h1>Crystals Collector!</h1></div>
+        <div id="instruntions">
+            <h2>Instructions</h2> 
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                <p>You win the game by matching your total score to the random number. You lost the game if your total score goes above the random number.</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the value of each crystal.</p>
+        </div>
+        <div class="gameClass">
+                    <table>
+                        <tr>
+                            <td class="targetNumberClass"rowspan="2"> Gem Target: <div id="targetCrystalsNumber"></div></td>
+                            <td class="winsClass">
+                                <table>
+                                    <tr>
+                                        <td> Wins: </td>
+                                        <td><div id="winCounter"></div></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="lossesClass">
+                                    <table>
+                                            <tr>
+                                                <td>Losses: </td>
+                                                <td> <div id="lossCounter"></div></td>
+                                            </tr>
+                                    </table>
+                            </td>
+                        </tr>
+                    </table>
+                
+                <table>
+                    <tr>
+                        <td><div id="gem1"></div></td>
+                        <td><div id="gem2"></div></td>
+                        <td><div id="gem3"></div></td>
+                        <td><div id="gem4"></div></td>
+                    </tr>
+                </table>
+                <div class="totalScoreClass"> <p>Your total score is: </p></div>
+            
+                <div id="totalCrystals"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+body {
+    /* The image used */
+    background-image: url("../images/background.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+#gem1 {
+    background-image: url("../images/blue.jpg");
+    background-size: 100% 100%;
+    height: 100px;
+    width: 100px;
+}
+
+#gem2 {
+    background-image: url("../images/pink.jpg");
+    background-size: 100% 100%;
+    height: 100px;
+    width: 100px;
+}
+
+#gem3 {
+    background-image: url("../images/red.jpg");
+    background-size: 100% 100%;
+    height: 100px;
+    width: 100px;
+}
+
+#gem4 {
+    background-image: url("../images/purple.jpg");
+    background-size: 100% 100%;
+    height: 100px;
+    width: 100px;
+}
+
+#instruntions {
+    width: 500px;
+    margin: 0 auto;
+    color: grey;
+}
+
+#gameName {
+    width: 500px;
+    margin: 0 auto;
+    color: red;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.targetNumberClass {
+    width: 200px;
+    background-color: bisque;
+}
+
+.winsClass {
+    width: 200px;
+    background-color: red;
+    color: white;
+}
+
+.lossesClass {
+    width: 200px;
+    background-color: green;
+    color: white;
+}
+
+.totalScoreClass {
+    width: 220px;
+    background-color: aqua;
+}
+
+#totalCrystals {
+    width: 220px;
+    height: 80px;
+    background-color: pink;
+}
+
+.gameClass {
+    margin: 0 auto;
+    width: 500px;
+}
